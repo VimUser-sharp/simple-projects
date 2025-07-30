@@ -1,0 +1,102 @@
+body {
+    background: url("/images/Epic.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+div.central {
+    width: 500px;
+    height: 200px;
+    background: rgba(248, 248, 248, 0.438);
+    border-radius: 50px;
+    box-shadow: 4px 11px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.central div {
+    width: 111px;
+    height: 111px;
+    background: rgba(0, 0, 0, 0.829);
+    font-size: 45px;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.central p {
+    font-size: 80px;
+}
+
+#hours {
+    color: yellow;
+}
+
+#minutes {
+    color: rgb(23, 23, 182);
+}
+
+#seconds {
+    color: rgb(14, 102, 102);
+}
+
+#picture {
+    height: 200px;
+    width: 300px;
+}
+
+#message {
+    font-size: 90px;
+    color: rgb(151, 8, 151);
+}
+
+#DaTe {
+    font-size: 60px;
+    color: yellow;
+}
+
+div.B {
+    height: 100px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.493);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.A {
+    background: rgba(255, 255, 255, 0.493);
+    border-radius: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day {
+    background: url('/images/Epic.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.afternoon {
+    background: url('/images/tarde.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.night {
+    background: url('/images/night.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
